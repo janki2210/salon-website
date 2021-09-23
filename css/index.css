@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+.bg-white{
+    background-color: white;
+}
 /* left side */
 .profilebar{
     width: 25%;
@@ -326,6 +329,93 @@
 .betty-main:hover h4{
     left: 0;
 }
+.betty-main .team .container{
+    width: 100%;
+}
+.betty-main .team .container .row{
+    width: 100%;
+    clear: both;
+    margin-top: 10px;
+}
+.betty-main .team .container .row .col6{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.betty-main .team .container .row .col6 .teamsubbox{
+    text-align:center;
+    padding: 10px;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.betty-main .team .container .row .col6 .teamsubbox img{
+    width: 41%;
+    height: 181px;
+    position: absolute;
+    overflow: hidden;
+    left: 5%;
+    top: 4%;
+    border-radius: 50%;
+    float: left;
+    margin: 10px;
+}
+.betty-main .team .container .row .col6 .teamsubbox h1{
+    float: right;
+    margin: 10px;
+    position: absolute;
+    left: 56%;
+    top: 16%;
+    font-size: 25px;
+}
+.betty-main .team .container .row .col6 .teamsubbox h2{
+    float: right;
+    margin: 10px;
+    font-size: 15px;
+    left: 56%;
+    top: 29%;
+    position: absolute;
+    color: rgb(233, 12, 122);
+}
+.betty-main .team .container .row .col6 .teamsubbox p{
+    float: right;
+    margin: 10px;
+    font-size: 15px;
+    left: 56%;
+    top: 40%;
+    position: absolute;
+    text-align: justify;
+    font-size: 17px;
+}
+.betty-main .team .container .row .col6 .teamsubbox .socialbar{
+    position: absolute;
+    top: 77%;
+    left: 55%;
+    font-size: 19px;
+    box-sizing: border-box;
+}
+.betty-main .team .container .row .col6 .teamsubbox .socialbar span{
+    padding: 10px;
+}
+.betty-main .team .container .row .col6 .teamsubbox .socialbar span i{
+    margin: 5px;
+    border-radius: 50%;
+    border: 2px solid rgb(230, 11, 120);
+    color: rgb(230, 11, 120);
+    padding: 10px;
+}
+.betty-main .team .container .row .col6 .teamsubbox .socialbar i:hover{
+    transition: 1s;
+    background-color: rgb(243, 10, 99);
+    color: white;
+}
+
 /* services section */
 .betty-main .services{
     width: 90%;
@@ -558,7 +648,76 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
+}
+.betty-main .testimonial .container{
+    width: 100%;
+}
+.betty-main .testimonial .container .row{
+    width: 100%;
+    clear: both;
+    margin-top: 10px;
+}
+.betty-main .testimonial .container .row .col4{
+    width: 33.333%;
+    float: left;
+    padding: 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+.betty-main .testimonial .container .row .col4 .testimonialsubbox{
+    overflow: auto;
+    text-align: center;
+    background-color: rgba(227, 225, 238, 0);
+}
+.betty-main .testimonial .testimonialsubbox h1{
+    color: rgb(199, 26, 113);
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+.betty-main .testimonial .container .row .col4 .testimonialsubbox p{
+    color: grey;
+    text-align: justify;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-right: 20px;
+    font-size: 18px;
+}
+.betty-main .testimonial .container .row .col4 .testimonialsubbox .testimonialbox{
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.betty-main .testimonial .container .row .col4 .testimonialsubbox .testimonialbox p{
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+.betty-main .testimonial .container .row .col4 .testimonialsubbox .testimonialbox .footer2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.betty-main .testimonial .container .row .col4 .testimonialsubbox .testimonialbox .footer2 img{
+    width: 20%;
+    height: 58px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.betty-main .testimonial .container .row .col4 .testimonialsubbox .testimonialbox .footer2 h2{
+    font-size: 17px;
+    font-style: normal;
+    padding:10px 0 0 0;
+}
+.betty-main .testimonial .container .row .col4 .testimonialsubbox .testimonialbox .footer2 p{
+    padding: 0 0 0 10px;
+    font-size: 17px;
+    font-style: normal;
+    float: left;
 }
 /* brands section */
 .betty-main .brands{
