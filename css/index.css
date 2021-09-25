@@ -534,6 +534,110 @@
     color: white;
     margin-top: 30px;
 }
+/* makeup section */
+.betty-main .makeup{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+.betty-main .makeup h3{
+    color: rgb(199, 26, 113);
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    position: relative;
+    left: -100%;
+    transition: 1.5s;
+}
+.betty-main:hover h3{
+    left: 0;
+}
+.betty-main .makeup h4{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 25px;
+    position: relative;
+    transition: 1.5s;
+    left: -100%;
+    overflow: hidden;
+}
+.betty-main:hover h4{
+    left: 0;
+}
+.betty-main .makeup .container{
+    width: 100%;
+}
+.betty-main .makeup .container .row{
+    width: 100%;
+    clear: both;
+    margin-top: 10px;
+}
+.betty-main .makeup .container .row .col4{
+    width: 33.333%;
+    float: left;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+    padding: 10px;
+    box-sizing: border-box;
+}
+.betty-main .makeup .container .row .col4 .makeupsubbox{
+    position: relative;
+    text-align: left;
+    background: #fff;
+    /* margin-bottom: 30px; */
+    overflow: hidden;
+    cursor: pointer;
+    /* padding: 10px; */
+}
+.betty-main .makeup .container .row .col4 .makeupsubbox:hover {
+    /* box-shadow: 0 44px 98px 0 rgb(0 0 0 / 12%); */
+    z-index: 100;
+    transition: 1s;
+    border-bottom: 5px solid #e52e71;
+}
+.betty-main .makeup .container .row .col4 .makeupsubbox .makeupicon{
+    font-size: 42px;
+    color: #e52e71;
+    float: left;
+    width: 100%;
+    transition: all 200ms ease-in-out;
+}
+.betty-main .makeup .container .row .col4 .makeupsubbox .makeupicon img{
+    width: 30%;
+    height: 100px;
+    margin: 10px;
+}
+.makeupsubbox:hover .makeupicon {
+    opacity: 0;
+    transform: translate3d(0, -67px, 0);
+}
+.betty-main .makeup .container .row .col4 .makeupsubbox .makeuptext{
+    display: inline-block;
+    vertical-align: bottom;
+    transition: transform .2s ease-in-out;
+}
+.makeupsubbox:hover .makeuptext{
+    transform: translate3d(0, -67px, 0);
+}
+.betty-main .makeup .container .row .col4 .makeupsubbox .makeuptext h6{
+    color: #000;
+    font-weight: 700;
+    line-height: 1.5em;
+    margin:0 10px;
+    font-size: 23px;
+}
+.betty-main .makeup .container .row .col4 .makeupsubbox .makeuptext p{
+    color: #666;
+    margin-bottom: -68px;
+    padding: 10px;
+    text-align: justify;
+}
+.makeupsubbox:hover .makeuptext p {
+    opacity: 1;
+}
 /* latest news section */
 .betty-main .latest-news{
     width: 90%;
