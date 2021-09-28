@@ -679,66 +679,53 @@
 .betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox{
     width: 33.333%;
     float: left;
-    box-sizing: border-box;
-}
-.betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox .newsbox{
-    overflow: auto;
-    text-align: left;
     padding: 10px;
+    box-sizing: border-box;
+    /* background-color:gray; */
 }
-.betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox.newsbox .header{
+.betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox .newssubbox{
+    text-align: left;
+    padding:10px;
+    overflow: auto;
+}
+.betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox .newssubbox .header{
     position: relative;
-    height: 200px;
     overflow: hidden;
+    height: 200px;
 }
-.betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox .newsbox .header img{
+.betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox .newssubbox .header img{
     width: 100%;
     height: 200px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
-.betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox .newsbox:hover .header img{
-    transform: scale(1.1);
+.betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox .newssubbox .header img:hover{
     transition:all 1s ease-in-out;
+    transform:scale(1.1);
 }
-.betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox .newsbox .title{
-    height:100px;
+.betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox .newssubbox .title{
+    padding: 10px;
     background-color: white;
 }
-.betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox .newsbox .title h6{
-    font-size: 15px;
-    float: left;
-    margin-top: 10px;
-    margin-left: 10px;
-    color: gray;
-}
-.betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox .newsbox .title h5{
-    font-size: 20px;
-    float: left;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-.betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox .newsbox .footer{
-    width: 100%;
-    float: left;
-    background-color: white;
-}
-.betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox .newsbox .footer h5{
-    text-align: right;
+.betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox .newssubbox .title h6{
     font-size: 15px;
     color: gray;
     margin: 10px;
+    text-transform: capitalize;
 }
-.betty-main .latest-news .btn{
-    width: 15%;
-    height: 50px;
-    margin: auto;
-    background-color: rgb(243, 10, 99);
-    display: block;
-    border-radius:40px;
-    color: white;
-    margin-bottom: 10px;
+.betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox .newssubbox .title h2{
+    font-size: 18px;
+    margin: 10px;
+    text-transform: capitalize;
+}
+.betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox .newssubbox .newsfooter{
+    height: 20px;
+    padding: 10px;
+    background-color: white;
+}
+.betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox .newssubbox .newsfooter h6{
+    font-size: 15px;
+    color: gray;
+    text-align: right;
+    text-transform: capitalize;
 }
 /* testimonial section*/
 .betty-main .testimonial{
@@ -1117,22 +1104,9 @@
 }
 }
 /* latest news section */
-@media screen and (max-width: 426px){
-.betty-main .latest-news {
-    display: block;
-    width: 80%;
-    margin: auto;
-}
-}
 @media screen and (max-width:426px){
 .betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox{
     width: 100%;
-    box-sizing: border-box;
-}  
-}
-@media screen and (max-width:426px){
-.betty-main .latest-news .btn{
-        width: 50%;
 }  
 }
 
@@ -1191,10 +1165,4 @@
         width: 50%;
 }
 }
-/* latest news */
-@media screen and (max-width:768px) and (min-width:426px){
-.betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox{
-        width: 50%;
-        box-sizing: border-box;
-}  
-}
+
