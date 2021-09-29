@@ -372,7 +372,7 @@
     position: absolute;
     left: 56%;
     top: 16%;
-    font-size: 25px;
+    font-size: 20px;
 }
 .betty-main .team .teamcontainer .teamrow .teambox .teamsubbox h2{
     float: right;
@@ -681,7 +681,6 @@
     float: left;
     padding: 10px;
     box-sizing: border-box;
-    /* background-color:gray; */
 }
 .betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox .newssubbox{
     text-align: left;
@@ -726,6 +725,24 @@
     color: gray;
     text-align: right;
     text-transform: capitalize;
+}
+.betty-main .latest-news .btn{
+    height: 50px;
+    width: 150px;
+    margin-bottom: 26px;
+    border: none;
+    background-color: rgb(243, 10, 99);
+    margin-top: 18px;
+    margin-left: 300px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.betty-main .latest-news .btn:hover{
+    background-color: orange;
+    transition: 1s;
 }
 /* testimonial section*/
 .betty-main .testimonial{
@@ -1067,6 +1084,50 @@
        width: 100%;
 }
 }
+@media screen and (max-width:426px){
+.betty-main .team .teamcontainer .teamrow .teambox .teamsubbox{
+        text-align: center;
+        height: 335px;
+}
+}
+@media screen and (max-width:426px){
+.betty-main .team .teamcontainer .teamrow .teambox .teamsubbox img{
+    position: absolute;
+    width: 37%;
+    height: 101px;
+    left: 27%;
+    top: -1%;
+}
+}
+@media screen and (max-width:426px){
+.betty-main .team .teamcontainer .teamrow .teambox .teamsubbox h1{
+    position: absolute;
+    top:34%;
+    left: 28%;
+}
+}
+@media screen and (max-width:426px){
+.betty-main .team .teamcontainer .teamrow .teambox .teamsubbox h2{
+        position: absolute;
+        top: 42%;
+        left: 28%;
+}
+}
+@media screen and (max-width:426px){
+.betty-main .team .teamcontainer .teamrow .teambox .teamsubbox p{
+        position: absolute;
+        top: 51%;
+        left: 2%;
+}
+}
+@media screen and (max-width:426px){
+.betty-main .team .teamcontainer .teamrow .teambox .teamsubbox .socialbar{
+    position: absolute;
+    top:79%;
+    left: 19%;
+}
+}
+ 
 
 /* testimonial section */
 @media screen and (max-width:426px){
@@ -1108,6 +1169,13 @@
 .betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox{
     width: 100%;
 }  
+}
+@media screen and (max-width:426px) {
+.betty-main .latest-news .btn{
+    margin: 20px auto;
+    display: block;
+}
+    
 }
 
 
@@ -1165,4 +1233,31 @@
         width: 50%;
 }
 }
-
+/* team section */
+@media screen and (max-width:768px) and (min-width:426px){
+.betty-main .team .teamcontainer .teamrow .teambox .teamsubbox{
+            text-align: center;
+            height: 335px;
+}
+}
+@media screen and (max-width:768px) and (min-width:426px){
+.betty-main .team .teamcontainer .teamrow .teambox .teamsubbox h2{
+            position: absolute;
+            top: 24%;
+            left: 56%;
+}
+}
+@media screen and (max-width:768px) and (min-width:426px){
+.betty-main .team .teamcontainer .teamrow .teambox .teamsubbox p{
+            position: absolute;
+            top: 32%;
+            left: 56%;
+}
+}
+@media screen and (max-width:768px) and (min-width:426px){
+.betty-main .team .teamcontainer .teamrow .teambox .teamsubbox .socialbar{
+        position: absolute;
+        top:74%;
+        left: 44%;
+}
+}
