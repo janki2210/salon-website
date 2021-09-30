@@ -1359,14 +1359,7 @@
 }
 @media screen and (max-width:426px){
 .betty-main .blog .blogboxs .btn{
-        /* position: absolute;
-        top: 326%;
-        left: 58%;
-        width: 16%; */
-        position: absolute;
-        top: 341%;
-    left: 60%;
-    width: 14%;
+        display: none;
 }
 }
 @media screen and (max-width:426px) {
