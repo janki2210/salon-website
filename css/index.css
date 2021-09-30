@@ -37,7 +37,7 @@
     font-weight: 700;
     font-size: 35px;
     line-height: 1em;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 }
 .profilebar .betty-logo h1 span{
     display: block;
@@ -965,7 +965,81 @@
     margin: 10px;
     color: gray;
 }
-
+.betty-main .blog .blogboxs{
+    width: 30%;
+    /* height:100vh; */
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+}
+.betty-main .blog .blogboxs .blogsubboxs{
+    text-align:left;
+    /* overflow: auto; */
+    position: relative;
+    overflow: hidden;
+}
+.betty-main .blog .blogboxs .blogsubboxs .searchbox{
+    width: 53%;
+    height: 29px;
+    margin: 10px 5px;
+    padding: 0 5px;
+   display: block;
+}
+.betty-main .blog .blogboxs .btn{
+    position: absolute;
+    top: 157px;
+    left: 88%;
+    height: 33px;
+    width: 5%;
+    font-size: 16px;
+    border: none;
+    background: rgb(229, 46, 113);
+}
+.betty-main .blog .blogboxs .btn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.betty-main .blog .blogboxs h5{
+    color: rgb(228, 13, 120);
+    font-size: 25px;
+    margin: 10px;
+}
+.betty-main .blog .blogboxs .searchbar{
+    margin: 10px;
+}
+.betty-main .blog .blogboxs .searchbar nav ul{
+    list-style-type: none;
+}
+.betty-main .blog .blogboxs .searchbar nav ul li{
+    width: 80%;
+    line-height:30px;
+    padding: 10px 0;
+    text-align: left;
+    border: 1px solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.betty-main .blog .blogboxs .searchbar nav ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.betty-main .blog .blogboxs .searchbar nav ul li a:hover{
+    color: rgb(228, 13, 120);
+    transition: 1s;
+}
+.betty-main .blog .blogboxs .searchbar button{
+    width: 39%;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    color: gray;
+}
+.betty-main .blog .blogboxs .searchbar button:hover{
+    background-color: rgb(228, 13, 120);
+    transition: 1s;
+    color: white;
+}
 /* contact */
 .betty-main .contact{
     width: 90%;
@@ -1213,8 +1287,6 @@
     left: 19%;
 }
 }
- 
-
 /* testimonial section */
 @media screen and (max-width:426px){
 .betty-main .testimonial {
@@ -1271,6 +1343,26 @@
 .betty-main .latest-news .btn{
     margin: 20px auto;
     display: block;
+}
+}
+/* blog section */
+@media screen and (max-width:426px){
+.betty-main .blog .blogcontainer .blogrow .blogbox{
+    width: 100%;
+}   
+}
+@media screen and (max-width:426px){
+.betty-main .blog .blogboxs .btn{
+        position: absolute;
+        top: 366%;
+        left: 58%;
+        width: 16%;
+}
+}
+@media screen and (max-width:426px) {
+.betty-main .blog .blogboxs{
+   width: 100%;
+   margin: 10px;
 }
 }
 /* contact section */
@@ -1386,6 +1478,17 @@
         position: absolute;
         top:74%;
         left: 44%;
+}
+}
+/* blog section */
+@media screen and (max-width:768px) and (min-width:426px){
+.betty-main .blog .blogboxs .btn{
+    position: absolute;
+    top: 29%;
+    left: 84%;
+    width: -18%;
+    width: 6%;
+    height: 35px;
 }
 }
 /* contact section */
