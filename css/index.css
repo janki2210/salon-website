@@ -225,7 +225,7 @@
 }
 .betty-main .betty-home:hover .betty-homecontainer .betty-homerow .homebox .homesubbox{
     bottom: 0;
-    transition: 3s;
+    transition: 1s;
 }
 .betty-main .betty-home .betty-homecontainer .betty-homerow .homebox .homesubbox h2{
   font-size: 25px;
