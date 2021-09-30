@@ -193,8 +193,66 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
+    overflow: hidden;
 }
-.betty-main .betty-home button {
+.betty-main .betty-home:hover{
+    transition: 3s;
+    background-image: url(..//img/Fashion-girl-makeup-and-beautiful-hair-HD-picture-01.jpg);
+}
+.betty-main .betty-home .betty-homecontainer{
+    width: 100%;
+}
+.betty-main .betty-home .betty-homecontainer .betty-homerow{
+    width: 100%;
+    clear: both;
+}
+.betty-main .betty-home .betty-homecontainer .betty-homerow .homebox{
+    width:33.333%;
+    float: left;
+    box-sizing: border-box;
+}
+.betty-main .betty-home .betty-homecontainer .betty-homerow .homebox .homesubbox{
+    text-align: left;
+    position: absolute;
+    width: 50%;
+    height: 190px;
+    bottom: -100%;
+    background-color:white;
+    padding: 20px;
+    margin: 20px;
+    border-radius:10px 10px;
+}
+.betty-main .betty-home:hover .betty-homecontainer .betty-homerow .homebox .homesubbox{
+    bottom: 0;
+    transition: 3s;
+}
+.betty-main .betty-home .betty-homecontainer .betty-homerow .homebox .homesubbox h2{
+  font-size: 25px;
+  padding: 10px;
+  font-weight: 600;
+}
+.betty-main .betty-home .betty-homecontainer .betty-homerow .homebox .homesubbox p{
+    font-size: 15px;
+    padding: 10px;
+    color: gray;
+}
+.betty-main .betty-home .betty-homecontainer .betty-homerow .homebox .homesubbox button{
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    color: #fff;
+    padding: 15px;
+    margin: 10px;
+    margin-top: 15px;
+    border-radius: 50px;
+    background-color: #e52e71;
+}
+.betty-main .betty-home .betty-homecontainer .betty-homerow .homebox .homesubbox button:hover{
+    transition: 1s;
+    background-color: orange;
+}
+/* .betty-main .betty-home button {
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -214,7 +272,7 @@
     background-color: white;
     margin: 5px 0px;
     margin-left: 7px;
-}
+} */
 /* about section */
 .betty-main .about{
     width: 90%;
@@ -1224,12 +1282,23 @@
 }
 }
 /* home section */
-@media screen and (max-width: 426px){
+/* @media screen and (max-width: 426px){
 .betty-main .betty-home button {
     display:block;
     margin-top: 10px;
     position: absolute;
     z-index: 1;
+}
+} */
+@media screen and (max-width:426px) {
+.betty-main .betty-home .betty-homecontainer .betty-homerow .homebox .homesubbox{
+ width: 76%;
+}
+}
+@media screen and (max-width:426px){
+.betty-main .betty-home .betty-homecontainer .betty-homerow .homebox .homesubbox button{
+  margin: 5px;
+  padding: 10px;
 }
 }
 /* about section */
