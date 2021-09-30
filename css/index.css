@@ -1352,11 +1352,21 @@
 }   
 }
 @media screen and (max-width:426px){
+.betty-main .blog .blogboxs .blogsubboxs{
+            text-align:left;
+            position: relative;
+}
+}
+@media screen and (max-width:426px){
 .betty-main .blog .blogboxs .btn{
-        position: absolute;
+        /* position: absolute;
         top: 326%;
         left: 58%;
-        width: 16%;
+        width: 16%; */
+        position: absolute;
+        top: 341%;
+    left: 60%;
+    width: 14%;
 }
 }
 @media screen and (max-width:426px) {
